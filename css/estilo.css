@@ -1,0 +1,107 @@
+.cuerpoIndex{
+    font-family: Arial, sans-serif;
+    background-color: rgb(233, 227, 227);
+    color: rgb(59, 59, 59);
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    background-color: rgb(63, 57, 55);
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
+.mainIndex{
+    max-width: 800px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow:0 0 10px black;
+}
+img.portada {
+    display: block;
+    margin: 0 auto 1rem auto;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+.tituloIndex{
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+.pieIndex{
+    text-align: center;
+    font-size: 1;
+    color: rgb(53, 53, 53);
+    padding: 16px;
+    background-color: bisque;
+}
+.enlaceIndex{
+    text-decoration: none;
+    color: rgb(104, 27, 21);
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+.cuerpoCap{
+    margin: 0;
+    background-color: rgb(227, 219, 207);
+}
+.encabezadoCap{
+    background-color: rgb(80, 79, 73);
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+div{
+    display: inline-flex;
+    width: 98%;
+    padding: 8px;
+    align-items: center;
+}
+.enlaces{
+    display: inline-flex;
+    justify-content: end;
+    width: 100%;
+}
+.enlace{
+    color: beige;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+.pieCap{
+    background-color: rgb(248, 229, 206);
+    padding: 6px;
+    text-align: center;
+}
+.mainCap{
+    margin: 0 auto;
+    padding: 50px;
+}
+p{
+    text-align: justify;
+    text-indent: 24px;
+    font-size: 20px;
+}
+h1, h2 {
+    text-align: center;
+}
+.imgCap{
+    display: flex;
+    justify-self: center;
+    border-radius: 40px;
+}
+.primerparrafo::first-letter{
+    font-size: 2em;
+    color: rgb(200, 11, 11);
+}
+.enlaceFinal{
+    font-size: 24px;
+    text-decoration: none;
+    color: brown;
+}
